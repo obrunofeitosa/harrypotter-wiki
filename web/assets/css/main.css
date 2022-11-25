@@ -47,6 +47,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 4.0rem;
   justify-content: space-around;
 }
 
@@ -54,6 +55,25 @@
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+}
+
+.content-two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.0rem;
+  margin-top: 4.8rem;
+}
+
+.footer{
+  padding: 2.4rem;
+  border-top: 0.04rem solid #AE0001;
+}
+
+.footer img{
+  height: 10vh;
+  display: block;
+  margin: 0 auto;
 }
 
 /*Estilização*/
@@ -65,7 +85,8 @@ html{
 }  
 
 body{
-  background-color: #161616 ;
+  background: rgb(73,0,0);
+  background: linear-gradient(27deg, rgba(73,0,0,1) 0%, rgba(22,22,22,1) 75%);
 }
 
 p{
@@ -98,4 +119,21 @@ p{
 
 .content-one img{
   height: 30vh;
+}
+
+.content-two h2{
+  font-size: 2.8rem ;
+  font-weight: 700;
+  color: #AE0001;
+  border-top: 0.04rem solid #AE0001;
+  padding-top: 2%;
+}
+
+.content-two p{
+  font-size: 1.8rem ;
+  font-weight: 600;
+}
+
+.content-one div button:hover{
+  background-color: #9c9c9c;
 }
