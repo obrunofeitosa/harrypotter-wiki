@@ -1,0 +1,139 @@
+/*
+  Author: Bruno Feitosa 
+  Version: v1.0
+  License: none (public domain)
+*/
+
+/*Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/*CSS Flexbox Layout*/
+
+/*Flexbox Header*/
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.img-header{
+  width: 5%;
+  height: 5%;
+}
+
+.nav-header{
+  display: flex;
+  gap: 10vh;
+}
+
+.nav-header a{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+}
+
+/*Flexbox Main*/
+
+.content{
+  border-top: 0.04rem solid #AE0001;
+  padding: 2%;
+
+}
+
+.content-one{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4.0rem;
+  justify-content: space-around;
+}
+
+.content-one div{
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.content-two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.0rem;
+  margin-top: 4.8rem;
+}
+
+.footer{
+  padding: 2.4rem;
+  border-top: 0.04rem solid #AE0001;
+}
+
+.footer img{
+  height: 10vh;
+  display: block;
+  margin: 0 auto;
+}
+
+/*Estilização*/
+
+html{
+  font-size: 62.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}  
+
+body{
+  background: rgb(73,0,0);
+  background: linear-gradient(27deg, rgba(73,0,0,1) 0%, rgba(22,22,22,1) 75%);
+}
+
+p{
+  font-size: 1.6rem;
+}
+
+.content-one div h1{
+  font-size: 2.8rem ;
+  font-weight: 700;
+  color: #AE0001;
+}
+
+.content-one div p{
+  font-size: 1.8rem ;
+  font-weight: 600;
+}
+
+.content-one div button{
+  background-color: #E5E5E5;
+  width: 50%;
+  height: auto;
+  border: none;
+  padding: 5%;
+  border-radius: 5px; 
+  box-shadow: 4px 5px 4px #161616;
+  font-size: 1.6rem ;
+  font-weight: 600;
+  color: #AE0001;
+}
+
+.content-one img{
+  height: 30vh;
+}
+
+.content-two h2{
+  font-size: 2.8rem ;
+  font-weight: 700;
+  color: #AE0001;
+  border-top: 0.04rem solid #AE0001;
+  padding-top: 2%;
+}
+
+.content-two p{
+  font-size: 1.8rem ;
+  font-weight: 600;
+}
+
+.content-one div button:hover{
+  background-color: #9c9c9c;
+}
